@@ -1,11 +1,15 @@
 #!/bin/bash
-git clone  https://github.com/lengxugz/OpenwrtApp package/otherapp/OpenwrtApp
+git clone --depth 1 https://github.com/destan19/OpenAppFilter package/otherapp/OpenAppFilter
+git clone --depth 1 https://github.com/zzsj0928/luci-app-pushbot package/otherapp/luci-app-pushbot
 
-#OpenAppFliter
-#git clone  https://github.com/destan19/OpenAppFilter package/otherapp/OpenAppFilter
+# Mentohust
+git clone --depth 1 https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/otherapp/mentohust
 
-#eQosPlus
-#git clone https://github.com/sirpdboy/luci-app-eqosplus package/otherapp/luci-app-eqosplus
+# UnblockNeteaseMusic
+git clone --depth 1 -b master  https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/unblockneteasemusic
+
+# OpenClash
+git clone --depth 1 https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 
 # Theme
 # luci-theme-neobird
