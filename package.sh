@@ -10,7 +10,3 @@ git clone --depth 1 -b master  https://github.com/UnblockNeteaseMusic/luci-app-u
 
 # OpenClash
 git clone --depth 1 https://github.com/vernesong/OpenClash.git package/luci-app-openclash
-
-# Theme
-# luci-theme-neobird
-git clone https://github.com/thinktip/luci-theme-neobird.git package/otherapp/luci-theme-neobird
